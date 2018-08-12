@@ -1,0 +1,20 @@
+{
+  "groups": [{
+    "name": "BI",
+    "type": "com.dawnpro.util.BiMsgPropertyUtil",
+    "sourceType": "com.dawnpro.util.BiMsgPropertyUtil"
+  }],
+  "properties": [
+    {
+      "name": "BI.callurl",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.dawnpro.util.BiMsgPropertyUtil"
+    },
+    {
+      "name": "BI.savepath",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.dawnpro.util.BiMsgPropertyUtil"
+    }
+  ],
+  "hints": []
+}

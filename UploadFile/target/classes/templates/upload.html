@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+
+
+<form method="POST" action="/upload" enctype="multipart/form-data">
+
+
+    <!--/*@thymesVar id="type" type="java.lang.String"*/-->
+    <input type="text" name="type" hidden="hidden" th:value="${type}" />
+    <input type="file" name="file" />
+    <input type="submit" value="Submit" />
+</form>
+
+</body>
+</html>
